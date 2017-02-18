@@ -1,0 +1,10 @@
+*.pyc
+.DS_Store
+client/node_modules/
+client/dist/
+error.txt
+venv/
+npm-debug.log
+client/test/unit/coverage
+client/test/e2e/reports
+selenium-debug.log
