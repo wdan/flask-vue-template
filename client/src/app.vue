@@ -21,9 +21,6 @@ export default {
     components: {
         Navbar,
         ControlPanel,
-        PointView,
-        Overview,
-        RadialView,
     },
     data() {
         return {

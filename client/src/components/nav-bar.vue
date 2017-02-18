@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar navbar-toggleable-md navbar-inverse navbar-dark bg-inverse">
-        <a class="navbar-brand" href="#">Name</a>
+        <a class="navbar-brand" href="#">Project Name</a>
     </nav>
 </template>
 

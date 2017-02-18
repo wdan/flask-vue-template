@@ -11,9 +11,10 @@ from server.models.utils import get_class_instance
 def index():
     return render_template('index.html')
 
+
 @app.route('/api/data_list')
 def get_data_list():
-    data_list = ['NBA', 'Pokemon', "City"]
+    data_list = []
     return json.dumps(data_list)
 
 
