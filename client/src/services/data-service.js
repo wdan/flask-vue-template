@@ -15,10 +15,6 @@ class Service {
     getData() {
         return this.data;
     }
-
-    getDistributionData() {
-        return this.distributionData;
-    }
 }
 
 const DataService = new Service();
