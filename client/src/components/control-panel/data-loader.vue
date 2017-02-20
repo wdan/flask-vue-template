@@ -27,15 +27,9 @@ export default {
     },
     watch: {
         selectedDataName(newValue) {
-            // NetService.getDistributionData((response) => {
-            //     DataService.setDistributionData(response.data);
-            // });
             NetService.getData(newValue, (response) => {
-                const Data = response.data;
-                DataService.setData(Data);
-                DataService.computeRealDistribution(Data.pointTable, Data.attributeTable);
-                DataService.computeDistribution();
-                PipeService.$emit(PipeService.DATA_CHANGE);
+                const data = response.data;
+                console.log(data);
             });
         },
     },
