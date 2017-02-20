@@ -9,8 +9,8 @@
 
 <script>
 import NetService from '../../services/net-service';
-import PipeService from '../../services/pipe-service';
-import DataService from '../../services/data-service';
+// import PipeService from '../../services/pipe-service';
+// import DataService from '../../services/data-service';
 
 export default {
     name: 'DataLoader',
