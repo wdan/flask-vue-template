@@ -1,7 +1,7 @@
 {
-  "name": "name",
+  "name": "skyline",
   "version": "1.0.0",
-  "description": "project name",
+  "description": "skyline visualization",
   "author": "Yanhong Wu <wdan1990@gmail.com>",
   "private": true,
   "scripts": {
@@ -16,13 +16,17 @@
     "axios": "^0.15.3",
     "bootstrap": "4.0.0-alpha.6",
     "d3": "^4.4.0",
+    "d3-scale-chromatic": "^1.1.1",
     "d3-tip": "^0.7.1",
     "jquery": "^3.1.1",
+    "keen-ui": "^1.0.0",
     "lodash": "^4.17.3",
     "remove-overlaps": "^2.1.0",
     "tether": "^1.4.0",
     "tsne-js": "^1.0.3",
+    "underscore": "^1.8.3",
     "vue": "^2.1.0",
+    "vue-awesome": "^2.1.0",
     "vue-material": "^0.5.2",
     "worker": "^0.2.1",
     "worker-loader": "^0.7.1"

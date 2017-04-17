@@ -55,8 +55,11 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel',
-        include: projectRoot,
-        exclude: /node_modules/
+        include: [
+            path.join(projectRoot, 'src'),
+            path.join(projectRoot, 'node_modules/vue-awesome')
+        ],
+        exclude: /node_modules(?![\\/]vue-awesome[\\/])/
       },
       {
         test: /\.json$/,

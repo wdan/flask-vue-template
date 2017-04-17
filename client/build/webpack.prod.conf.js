@@ -28,6 +28,13 @@ var webpackConfig = merge(baseWebpackConfig, {
   },
   plugins: [
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jquery: "jquery",
+      "window.jQuery": "jquery",
+      jQuery:"jquery",
+      "window.Tether": "tether"
+    }),
     new webpack.DefinePlugin({
       'process.env': env
     }),
